@@ -1,0 +1,167 @@
+    body {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 1.250em;
+        color: #969696;
+        text-align: center;
+    }
+    
+    h1 {
+        font-weight: 300;
+        font-size: 1.3em;
+    }
+    
+    input {
+        border: 2px solid #c2d3ff;
+        border-radius: 20px;
+        padding: 10px 110px 10px 30px;
+        text-align: left;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+     ::placeholder {
+        color: #c2d3ff;
+        font-size: 0.9em;
+    }
+    
+    button {
+        margin: 10px;
+        padding: 13px 125px;
+        border-radius: 20px;
+        border: none;
+        color: #ffffff;
+        background-color: #4f7df3;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 0.6em;
+        display: inline-block;
+        position: relative;
+        box-shadow: 0px 5px 20px -5px rgb(79 125 243 / 60%);
+    }
+    
+    button:hover {
+        background-color: rgb(79, 125, 243, 0.9);
+    }
+    
+    svg {
+        color: #4f7df3;
+        border: 1px solid #c2d3ff;
+        border-radius: 100%;
+        padding: 5px;
+        margin: 0 3px;
+    }
+    
+    svg:hover {
+        background-color: #4f7df3;
+        color: #ffffff;
+    }
+    
+    footer p {
+        font-size: 0.4em;
+    }
+    
+    a {
+        color: #4f7df3;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #151f29;
+    }
+    
+    .header p {
+        color: #151f29;
+        font-size: 0.7em;
+    }
+    
+    .main-img img {
+        object-fit: cover;
+        width: 100%;
+        margin: 50px 0 100px;
+    }
+    
+    .main-container {
+        margin: 50px 10px;
+    }
+    
+    .logo {
+        width: 3em;
+    }
+    
+    .subscribe {
+        margin-top: 40px;
+    }
+    
+    .input-field {
+        display: inline-block;
+    }
+    
+    .error {
+        display: none;
+        font-size: 0.55em;
+        font-style: italic;
+        color: #ff5263;
+        position: absolute;
+        padding-left: 50px;
+    }
+    
+    .invalid input {
+        border: 1px solid #ff5263;
+    }
+    
+    .invalid ::placeholder {
+        color: #ff5263;
+    }
+    
+    .invalid .error {
+        display: block;
+    }
+    
+    .invalid button {
+        top: 30px;
+    }
+    
+    .social {
+        margin-bottom: 20px;
+    }
+    
+    .svg-inline--fa.fa-w-10,
+    .svg-inline--fa.fa-w-16,
+    .svg-inline--fa.fa-w-14 {
+        width: 20px;
+    }
+    
+    @media (min-width: 670px) {
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0;
+        }
+        input {
+            padding: 12px 200px 12px 30px;
+        }
+        button {
+            padding: 14px 50px;
+        }
+        .main-container {
+            width: 660px;
+            margin: 50px auto;
+        }
+        .header p {
+            font-size: 0.8em;
+        }
+        .subscribe {
+            margin: 30px 40px 10px;
+        }
+        .main-img img {
+            margin: 50px 0 90px;
+            width: 90%;
+        }
+        .error {
+            text-align: left;
+            padding-left: 30px;
+        }
+        .invalid button {
+            top: 0px;
+        }
+    }
